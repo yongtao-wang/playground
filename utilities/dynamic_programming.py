@@ -18,6 +18,7 @@ def coins(amount):
             memo[i] = min(checklist)
     return memo[amount]
 
+
 def coin_combo(amount):
     """
     show the actual combination of coins
@@ -39,6 +40,7 @@ def coin_combo(amount):
             else:
                 memo[i] = [memo[i-5][0], memo[i-5][1], memo[i-5][2]+1]
     return memo[amount]
+
 
 def scalable_coins(coins, amount):
     """
