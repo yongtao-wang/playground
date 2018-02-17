@@ -1,6 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 /venv
 /.idea
-/Icon
 .DS_Store
-/Icon
+/.vscode
