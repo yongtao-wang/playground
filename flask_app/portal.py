@@ -43,6 +43,8 @@ def login(name):
 
 @app.route('/user/<name>')
 def show_name(name):
+    if name != 'me':
+        pass
     return 'user name is %s' % name
 
 
